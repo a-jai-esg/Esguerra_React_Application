@@ -1,0 +1,73 @@
+#root {
+  background-color: #bdd5e7;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 3.5rem;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 500;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 1.5px;
+  border-color: #bdd5e7;
+}
+
+#InputPassword, #InputEmail{
+  font-weight: 300;
+  color: #888;
+}
+
+.icon-area{
+  padding-bottom: 6pt;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.btn.btn-submit{
+  margin-top: 26.5px;
+  width: 100%;
+  color: #333;
+}
+
+.btn.btn-submit:hover{
+  font-weight: bolder;
+  width: 100%;
+}
+
+.form-group{
+  padding: 2.5px;
+}
