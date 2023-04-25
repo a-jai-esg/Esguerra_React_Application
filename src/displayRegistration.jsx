@@ -2,13 +2,13 @@ import reactLogo from './assets/react.svg'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-function displayLogin() {
+function displayRegistration() {
   return (
     <>
     <form className="form-signin">
     <div className="icon-area" align="center">
       <img className="mb-4" src={reactLogo} alt="" width="72" height="72"/>
-      <h1 className="h3 mb-3 font-weight-normal">Login</h1>
+      <h1 className="h3 mb-3 font-weight-normal">Registration</h1>
     </div>
     <div className="form-group">
       <label for="InputEmail">Email address</label>
@@ -18,6 +18,10 @@ function displayLogin() {
       <label for="InputPassword">Password</label>
       <input type="password" className="form-control" id="InputPassword" placeholder="Password"/>
     </div>
+    <div className="form-group">
+      <label for="InputConfirmPassword">Confirm Password</label>
+      <input type="password" className="form-control" id="InputConfirmPassword" placeholder="Password"/>
+    </div>
     <div className="form-check">
       <input type="checkbox" className="form-check-input" id="exampleCheck1"/>
       <small>
@@ -25,10 +29,10 @@ function displayLogin() {
       </small>
     </div>
     
-    <button type="submit" className="btn btn-submit btn-primary">Login</button>
+    <button type="submit" className="btn btn-submit btn-primary">Register</button>
     </form>
     </> 
   );
 }
 
-export default displayLogin
+export default displayRegistration

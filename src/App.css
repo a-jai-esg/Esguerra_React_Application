@@ -12,7 +12,7 @@
   border-color: #bdd5e7;
 }
 
-#InputPassword, #InputEmail{
+#InputPassword, #InputEmail, #InputConfirmPassword{
   font-weight: 300;
   color: #888;
 }
