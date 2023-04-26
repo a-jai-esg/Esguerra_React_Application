@@ -1,6 +1,6 @@
-#root {
-  background-color: #bdd5e7;
-  max-width: 1280px;
+#root{
+  background-color: #c8f7f2; 
+  max-width: 900px;
   margin: 0 auto;
   padding: 3.5rem;
   text-align: left;
@@ -9,12 +9,13 @@
   border-style: solid;
   border-radius: 10px;
   border-width: 1.5px;
-  border-color: #bdd5e7;
+  border-color: #fffcd5;
 }
 
-#InputPassword, #InputEmail, #InputConfirmPassword{
+#inputEmail, #inputPassword, #inputPassword,
+#inputName, #inputAddress, #inputCity, #inputBarangay, #inputZip{
   font-weight: 300;
-  color: #888;
+  color: #333;
 }
 
 .icon-area{
@@ -60,12 +61,13 @@
 .btn.btn-submit{
   margin-top: 26.5px;
   width: 100%;
-  color: #333;
+  height: 85%;
+  font-size: 14pt;
+  color: #fffcd5;
 }
 
 .btn.btn-submit:hover{
   font-weight: bolder;
-  width: 100%;
 }
 
 .form-group{

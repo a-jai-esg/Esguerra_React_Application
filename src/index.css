@@ -14,6 +14,13 @@
   -webkit-text-size-adjust: 100%;
 }
 
+#main{
+  background-image: url('./assets/background.jpg');
+  opacity: 0.5;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -24,6 +31,9 @@ a:hover {
 }
 
 body {
+  background-image: url('./assets/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   margin: 0;
   display: flex;
   place-items: center;
