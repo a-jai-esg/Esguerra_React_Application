@@ -1,4 +1,3 @@
-import reactLogo from "./assets/react.svg";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -7,8 +6,8 @@ function displayNavbar() {
     <>
       <div className="navbar-extended">
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <a className="navbar-brand" href="#">
-          Navbar
+        <a className="navbar-brand navbar-element-pad" href="#">
+          Ariana
         </a>
         <button
           className="navbar-toggler"
@@ -22,13 +21,13 @@ function displayNavbar() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul className="navbar-nav">
-            <li className="nav-item">
+          <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li className="nav-item navbar-element-pad">
               <a className="nav-link" href="#">
                 Registration
               </a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item nav-item navbar-element-pad">
               <a className="nav-link" href="#">
                 Login
               </a>

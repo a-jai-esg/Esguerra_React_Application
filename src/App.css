@@ -87,3 +87,7 @@
   margin-bottom: auto;
   border-radius: 10px;
 }
+
+.navbar-element-pad{
+  padding-left: 10px;
+}

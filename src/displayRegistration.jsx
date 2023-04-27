@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function displayRegistration() {
   return (
     <>
-      <form className="row g-3">
+      <form className="registration-dialog row g-3">
         <div className="icon-area" align="center">
           <img className="mb-4" src={reactLogo} alt="" width="72" height="72" />
           <h1 className="h3 mb-3 font-weight-normal">Account Registration</h1>
