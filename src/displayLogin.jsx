@@ -6,7 +6,7 @@ function displayLogin() {
   return (
     <>
       <section></section>
-      <form className="form-signin">
+      <form className="form-signin login-dialog">
         <div className="icon-area" align="center">
           <img className="mb-4" src={reactLogo} alt="" width="72" height="72" />
           <h1 className="h3 mb-3 font-weight-normal">Login</h1>

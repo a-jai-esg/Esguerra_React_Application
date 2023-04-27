@@ -1,15 +1,11 @@
 #root{
-  background-color: #c8f7f2; 
   max-width: 900px;
   margin: 0 auto;
-  padding: 3.5rem;
+  padding: 2.5rem;
   text-align: left;
   font-family: Roboto;
   font-weight: 500;
-  border-style: solid;
-  border-radius: 10px;
-  border-width: 1.5px;
-  border-color: #fffcd5;
+  border-style: none;
 }
 
 #inputEmail, #inputPassword, #inputPassword,
@@ -21,6 +17,7 @@
 .icon-area{
   padding-bottom: 6pt;
 }
+
 
 .logo {
   height: 6em;
@@ -72,4 +69,21 @@
 
 .form-group{
   padding: 2.5px;
+}
+
+.navbar-extended{
+  background-color: #c8f7f2; 
+  max-width: 100%;
+  padding: 1em;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-bottom: 100px;
+}
+
+.login-dialog, .registration-dialog{
+  background-color: #c8f7f2; 
+  padding: 3em;
+  margin-top: auto;
+  margin-bottom: auto;
+  border-radius: 10px;
 }
